@@ -10,16 +10,16 @@ class Solution(object):
         """
         # merge后排序，直接查中值
         # 由于是有序数列，理论上归并更快
-        l = nums1
-        l.extend(nums2)
-        if len(l) == 0:
+        li = nums1
+        li.extend(nums2)
+        if len(li) == 0:
             return 0
-        l.sort()
-        index_median = len(l) / 2
-        if len(l) % 2 == 0:
-            return (l[index_median]+l[index_median-1])/2.0
+        li.sort()
+        index_median = len(li) / 2
+        if len(li) % 2 == 0:
+            return (li[index_median]+li[index_median-1])/2.0
         else:
-            return l[index_median]
+            return li[index_median]
 
 
 # test

@@ -38,6 +38,7 @@ class Solution(object):
         return first
 
 
+# test
 ins = Solution()
 l1a = ListNode(2)
 l1b = ListNode(4)
