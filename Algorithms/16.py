@@ -30,3 +30,4 @@ class Solution(object):
 
 instance = Solution()
 print instance.threeSumClosest([-1, 2, 1, -4], 1)
+
