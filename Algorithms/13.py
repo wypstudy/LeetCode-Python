@@ -25,4 +25,4 @@ class Solution(object):
         return num
 
 instance = Solution()
-print instance.romanToInt("MCMXCIV")
+print(instance.romanToInt("MCMXCIV"))

@@ -32,5 +32,5 @@ class Solution(object):
 
 # test
 instance = Solution()
-print instance.twoSum(nums=[2, 5, 5, 11], target=10)
+print(instance.twoSum(nums=[2, 5, 5, 11], target=10))
 

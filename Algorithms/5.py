@@ -40,4 +40,4 @@ class Solution(object):
 
 # test
 instance = Solution()
-print instance.longestPalindrome("babad")
+print(instance.longestPalindrome("babad"))

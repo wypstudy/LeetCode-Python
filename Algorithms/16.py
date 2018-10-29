@@ -29,5 +29,5 @@ class Solution(object):
         return answer
 
 instance = Solution()
-print instance.threeSumClosest([-1, 2, 1, -4], 1)
+print(instance.threeSumClosest([-1, 2, 1, -4], 1))
 

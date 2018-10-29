@@ -28,4 +28,4 @@ class Solution(object):
 
 
 instance = Solution()
-print instance.letterCombinations("23")
+print(instance.letterCombinations("23"))

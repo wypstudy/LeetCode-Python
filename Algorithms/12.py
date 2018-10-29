@@ -21,8 +21,8 @@ class Solution(object):
 
 
 instance = Solution()
-print instance.intToRoman(1)
-print instance.intToRoman(4)
-print instance.intToRoman(9)
-print instance.intToRoman(49)
-print instance.intToRoman(1994)
+print(instance.intToRoman(1))
+print(instance.intToRoman(4))
+print(instance.intToRoman(9))
+print(instance.intToRoman(49))
+print(instance.intToRoman(1994))

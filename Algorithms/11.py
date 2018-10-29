@@ -24,5 +24,5 @@ class Solution(object):
 
 
 instance = Solution()
-print instance.maxArea([10,10,1,10])
-print instance.maxArea([1,1])
+print(instance.maxArea([10,10,1,10]))
+print(instance.maxArea([1,1]))

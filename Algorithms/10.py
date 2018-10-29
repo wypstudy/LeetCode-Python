@@ -49,8 +49,8 @@ class Solution(object):
 
 # test
 instance = Solution()
-print instance.isMatch("aaa", "ab*ac*a")
-print instance.isMatch("aab", "c*a*b")
-print instance.isMatch("mississippi", "mis*is*p*.")
-print instance.isMatch("mississippi", "mis*is*ip*.")
+print(instance.isMatch("aaa", "ab*ac*a"))
+print(instance.isMatch("aab", "c*a*b"))
+print(instance.isMatch("mississippi", "mis*is*p*."))
+print(instance.isMatch("mississippi", "mis*is*ip*."))
 

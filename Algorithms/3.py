@@ -34,4 +34,4 @@ class Solution(object):
 
 # test
 instance = Solution()
-print instance.lengthOfLongestSubstring("abcabcbb")
+print(instance.lengthOfLongestSubstring("abcabcbb"))

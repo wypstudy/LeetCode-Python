@@ -26,4 +26,4 @@ class Solution(object):
 
 # test
 instance = Solution()
-print instance.convert("PAYPALISHIRING", 3)
+print(instance.convert("PAYPALISHIRING", 3))

@@ -54,7 +54,7 @@ echo = ins.addTwoNumbers(l1a, l2a)
 while True:
     if echo is None:
         break
-    print echo.val
+    print(echo.val)
     echo = echo.next
 
 

@@ -24,4 +24,4 @@ class Solution(object):
 
 # test
 instance = Solution()
-print instance.findMedianSortedArrays([1, 3], [2, 4])
+print(instance.findMedianSortedArrays([1, 3], [2, 4]))

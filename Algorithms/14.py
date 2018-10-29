@@ -24,5 +24,5 @@ class Solution(object):
             index += 1
 
 instance = Solution()
-print instance.longestCommonPrefix(["flower","flow","flight"])
-print instance.longestCommonPrefix(["flower","flow"])
+print(instance.longestCommonPrefix(["flower","flow","flight"]))
+print(instance.longestCommonPrefix(["flower","flow"]))

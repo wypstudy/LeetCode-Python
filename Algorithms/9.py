@@ -11,6 +11,6 @@ class Solution(object):
         return False
 # test
 instance = Solution()
-print instance.isPalindrome(-212)
-print instance.isPalindrome(1234321)
-print instance.isPalindrome(1211)
+print(instance.isPalindrome(-212))
+print(instance.isPalindrome(1234321))
+print(instance.isPalindrome(1211))

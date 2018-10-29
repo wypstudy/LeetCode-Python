@@ -28,6 +28,6 @@ class Solution(object):
 
 # test
 instance = Solution()
-print instance.myAtoi("-")
-print instance.myAtoi("")
-print instance.myAtoi("+120a23")
+print(instance.myAtoi("-"))
+print(instance.myAtoi(""))
+print(instance.myAtoi("+120a23"))

@@ -34,7 +34,7 @@ class Solution(object):
 
 
 instance = Solution()
-print instance.threeSum([3,0,-2,-1,1,2])
-print instance.threeSum([1,2,-2,-1])
-print instance.threeSum([-1,0,1,2,-1,-4])
-print instance.threeSum([-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6])
+print(instance.threeSum([3,0,-2,-1,1,2]))
+print(instance.threeSum([1,2,-2,-1]))
+print(instance.threeSum([-1,0,1,2,-1,-4]))
+print(instance.threeSum([-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6]))

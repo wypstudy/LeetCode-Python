@@ -20,5 +20,5 @@ class Solution(object):
 
 # test
 instance = Solution()
-print instance.reverse(123)
-print instance.reverse(-120)
+print(instance.reverse(123))
+print(instance.reverse(-120))
