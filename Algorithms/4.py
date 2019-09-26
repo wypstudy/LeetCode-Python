@@ -15,7 +15,7 @@ class Solution(object):
         if len(li) == 0:
             return 0
         li.sort()
-        index_median = len(li) / 2
+        index_median = int(len(li) / 2)
         if len(li) % 2 == 0:
             return (li[index_median]+li[index_median-1])/2.0
         else:
