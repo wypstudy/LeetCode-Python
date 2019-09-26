@@ -13,15 +13,15 @@ class Solution(object):
             if i > 0 and nums[i] == nums[i-1]:
                 continue
             right = length - 1
-            sum = 0 - nums[i]
+            _sum = 0 - nums[i]
             while left < right:
-                if nums[left] + nums[right] == sum:
+                if nums[left] + nums[right] == _sum:
                     answer.add("%d:%d:%d" % (nums[i], nums[left], nums[right]))
                     while left < right and nums[left+1] == nums[left]:
                         left += 1
                     while left < right and nums[right-1] == nums[right]:
                         right -= 1
-                if sum - nums[left] - nums[right] > 0:
+                if _sum - nums[left] - nums[right] > 0:
                     left += 1
                 else:
                     right -= 1
