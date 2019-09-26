@@ -23,7 +23,7 @@ class Solution(object):
             b = 0 if l2 is None else l2.val
             val = a + b + now.val
             value = val % 10
-            carry = val / 10
+            carry = int(val / 10)
 
             # 存储到链表
             now.val = value
